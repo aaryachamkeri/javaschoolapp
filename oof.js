@@ -9,7 +9,7 @@ x.send();
 
 
 let json = JSON.parse(res);
-let ip = json["query"];
+let ip = json["ip"];
 let oof = document.createElement("h1");
 oof.appendChild(document.createTextNode(ip));
 document.querySelector("body").appendChild(oof);
