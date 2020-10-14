@@ -1,5 +1,5 @@
 let x = new XMLHttpRequest();
-x.open("GET", "https://ip-api.com/json/", false);
+x.open("GET", "https://api.ipify.org?format=json", false);
 let res = "";
 x.onload = function(){
     console.log("res");
