@@ -1,5 +1,5 @@
 let x = new XMLHttpRequest();
-x.open("GET", "http://ip-api.com/json/", false);
+x.open("GET", "https://ip-api.com/json/", false);
 let res = "";
 x.onload = function(){
     console.log("res");
